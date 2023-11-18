@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
         <Nav />
         <Header />
       </header>
-      <main className=''>{children}</main>
+      <main className='w-full h-full'>{children}</main>
     </div>
   );
 };

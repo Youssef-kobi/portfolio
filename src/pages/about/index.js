@@ -277,7 +277,7 @@ const About = () => {
                 );
               })}
             </div>
-            {/* Description */}
+            {/* Description
             <div className='flex-1'>
               <motion.p
                 variants={fadeIn('left', 0.6)}
@@ -288,7 +288,7 @@ const About = () => {
               >
                 {aboutData[index].description}
               </motion.p>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </section>
