@@ -129,7 +129,7 @@ const About = () => {
         {/* Additional relevant meta tags */}
       </Head>
 
-      <section className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+      <section className='h-full bg-primary/30 py-32 flex items-center text-center xl:text-left'>
         <Circles />
         <motion.aside
           variants={fadeIn('right', 0.2)}
