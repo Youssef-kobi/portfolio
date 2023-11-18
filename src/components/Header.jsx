@@ -13,7 +13,7 @@ const Header = () => {
           variants={fadeIn('up', 0.3)}
           initial='hidden'
           animate='show'
-          exit='hidden' className='flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8' >
+          exit='hidden' className='flex flex-col lg:flex-row justify-between items-center gap-y-6 py-6' >
           {/* logo */}
           <Link className='flex items-end opacity-90' href={'/'}>
             <Image className='-mr-3 ' src={'/YLogo.svg'} width={40} height={48} alt='YLogo' priority />
