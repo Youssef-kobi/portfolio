@@ -140,7 +140,7 @@ const About = () => {
         >
           <Avatar />
         </motion.aside>
-        <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
+        <div className='container mx-auto  flex flex-col items-center xl:flex-row gap-x-6'>
           {/* text */}
           <article className='flex flex-col justify-center'>
             <motion.h2
@@ -220,7 +220,7 @@ const About = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='flex flex-col w-full xl:max-w-[48%] h-[380px]'
+            className='flex flex-col w-full xl:max-w-[48%]'
           >
             <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
               {aboutData.map((el, itemIndex) => {
