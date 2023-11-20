@@ -129,7 +129,7 @@ const About = () => {
         {/* Additional relevant meta tags */}
       </Head>
 
-      <section className='h-full bg-primary/30 py-32 flex items-center text-center xl:text-left'>
+      <section className='h-full bg-primary/30 py-32 text-center xl:text-left'>
         <Circles />
         <motion.aside
           variants={fadeIn('right', 0.2)}
@@ -140,7 +140,7 @@ const About = () => {
         >
           <Avatar />
         </motion.aside>
-        <div className='container mx-auto  flex flex-col items-center xl:flex-row gap-x-6'>
+        <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
           {/* text */}
           <article className='flex flex-col justify-center'>
             <motion.h2
@@ -220,7 +220,7 @@ const About = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='flex flex-col w-full xl:max-w-[48%]'
+            className='flex flex-col w-full xl:max-w-[48%] h-[380px]'
           >
             <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
               {aboutData.map((el, itemIndex) => {
