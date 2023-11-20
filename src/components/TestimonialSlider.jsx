@@ -50,7 +50,7 @@ const TestimonialSlider = () => {
       pagination={{ clickable: true, }}
       navigation
       modules={[Navigation, Pagination]}
-      className="h-[400px]"
+      className="h-[400px] overflow-hidden"
     >
       {testimonialData.map((person, index) => (
         <SwiperSlide key={index}>
