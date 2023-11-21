@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <section className='bg-primary/60 h-full'>
         <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
-          <header className='text-center flex flex-col  py-32 xl:text-left h-full container mx-auto'>
+          <header className='text-center flex flex-col py-32 xl:pb-0 xl:justify-center xl:text-left h-full container mx-auto'>
             <motion.h1
               variants={fadeIn('down', 0.2)}
               initial='hidden'
