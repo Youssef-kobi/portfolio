@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout';
 import Transition from '@/components/Transition';
 import '@/styles/globals.css';
-import { AnimatePresence, motion } from 'framer-motion';
+import {AnimatePresence,motion} from 'framer-motion';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
