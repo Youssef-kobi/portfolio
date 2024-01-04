@@ -1,5 +1,5 @@
 import Layout from '@/components/Layout';
-// import Transition from '@/components/Transition';
+import Transition from '@/components/Transition';
 import '@/styles/globals.css';
 import { AnimatePresence, motion } from 'framer-motion';
 import dynamic from 'next/dynamic';
@@ -8,11 +8,11 @@ import { useRouter } from 'next/router';
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
-  // Dynamically import Transition component with lazy loading
-const Transition = dynamic(() => import('@/components/Transition'), {
-  loading: () => <p>Loading...</p>, // Optional loading component
-  ssr: false, // Disable SSR for this component
-});
+//   // Dynamically import Transition component with lazy loading
+// const Transition = dynamic(() => import('@/components/Transition'), {
+//   loading: () => <p>Loading...</p>, // Optional loading component
+//   ssr: false, // Disable SSR for this component
+// });
 
   return (
     <>
