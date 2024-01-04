@@ -1,28 +1,58 @@
-import Link from 'next/link'
-import { RiGithubLine, RiGitlabLine, RiLinkedinLine, RiYoutubeLine } from 'react-icons/ri'
-import { BiLogoUpwork } from 'react-icons/bi'
-import { PiDevToLogo } from 'react-icons/pi'
+import { RiGithubLine, RiLinkedinLine } from 'react-icons/ri';
+import { BiLogoUpwork } from 'react-icons/bi';
+import { PiDevToLogo } from 'react-icons/pi';
 
 const Socials = () => {
   return (
     <div className='flex items-center gap-x-5 text-lg'>
-      <Link target='_blank' href="https://www.linkedin.com/in/youssef-elkobi/" className='hover:text-accent transition-all duration-300'>
+      <a
+        target='_blank'
+        href="https://www.linkedin.com/in/youssef-elkobi/"
+        className='hover:text-accent transition-all duration-300'
+        aria-label='LinkedIn'
+        rel="noopener noreferrer"
+      >
         <RiLinkedinLine />
-      </Link>
-      <Link  target='_blank' href="https://github.com/Youssef-kobi" className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a
+        target='_blank'
+        href="https://github.com/Youssef-kobi"
+        className='hover:text-accent transition-all duration-300'
+        aria-label='GitHub'
+        rel="noopener noreferrer"
+      >
         <RiGithubLine />
-      </Link>
-      <Link target='_blank' href="https://www.upwork.com/freelancers/~0156237375f41e5676" className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a
+        target='_blank'
+        href="https://www.upwork.com/freelancers/~0156237375f41e5676"
+        className='hover:text-accent transition-all duration-300'
+        aria-label='Upwork'
+        rel="noopener noreferrer"
+      >
         <BiLogoUpwork />
-      </Link>
-      <Link target='_blank'  href="https://dev.to/youssefkobi" className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a
+        target='_blank'
+        href="https://dev.to/youssefkobi"
+        className='hover:text-accent transition-all duration-300'
+        aria-label='DevTo'
+        rel="noopener noreferrer"
+      >
         <PiDevToLogo />
-      </Link>
-      {/* <Link target='_blank' href="/" className='hover:text-accent transition-all duration-300'>
+      </a>
+      {/* Uncomment if you have a YouTube channel */}
+      {/* <a
+        target='_blank'
+        href="https://www.youtube.com/channel/CHANNEL_ID"
+        className='hover:text-accent transition-all duration-300'
+        aria-label='YouTube'
+        rel="noopener noreferrer"
+      >
         <RiYoutubeLine />
-      </Link> */}
+      </a> */}
     </div>
   )
 }
 
-export default Socials
+export default Socials;
