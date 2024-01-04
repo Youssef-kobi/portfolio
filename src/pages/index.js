@@ -32,7 +32,7 @@ export default function Home() {
             </motion.h1>
 
             <motion.p
-              variants={fadeIn('down', 0.3)}
+              variants={fadeIn('down', 1)}
               initial='hidden'
               animate='show'
               exit='hidden'
