@@ -36,7 +36,7 @@ export default function Home() {
               initial='hidden'
               animate='show'
               exit='hidden'
-              className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
+              className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-1 swap'
             >
               Specializing in web development, I focus on turning your vision
               into exceptional digital experiences. My mastery in technologies
