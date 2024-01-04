@@ -2,6 +2,7 @@ import Layout from '@/components/Layout';
 // import Transition from '@/components/Transition';
 import '@/styles/globals.css';
 import { AnimatePresence, motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
