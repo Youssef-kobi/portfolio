@@ -32,9 +32,17 @@ const Nav = () => {
   return (
     <nav className='flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 w-full xl:w-16 xl:max-w-md xl:h-screen'>
       <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[60px] xl:h-max py-8 bg-white/10 backdrop-blue-sm text-3xl xl:text-xl xl:rounded-full'>
-        {navData.map((link, index) => (
+        {navData.map((link) => (
           <Link href={link.path} key={link.path}>
-            <a className={`relative flex items-center group hover:text-accent transition-all duration-300 ${link.path === pathname ? 'text-accent' : ''}`}>
+            <span
+              role="link"
+              aria-label={link.name}
+              className={`relative flex items-center group hover:text-accent transition-all duration-300 ${pathname === link.path ? 'text-accent' : ''}`}
+              tabIndex={0}
+              onClick={() => router.push(link.path)}
+              onKeyPress={(e) => e.key === 'Enter' && router.push(link.path)}
+              onKeyDown={(e) => e.key === 'Enter' && router.push(link.path)}
+            >
               <div className='absolute pr-14 right-0 hidden xl:group-hover:flex'>
                 <div className='bg-white relative flex text-primary items-center p-[6px] rounded-sm'>
                   <div className='text-[12px] leading-none font-semibold capitalize'>
@@ -45,9 +53,8 @@ const Nav = () => {
               </div>
               <div className=''>
                 {link.icon}
-                <span className="sr-only">{link.name}</span> {/* Screen reader only text */}
               </div>
-            </a>
+            </span>
           </Link>
         ))}
       </div>
