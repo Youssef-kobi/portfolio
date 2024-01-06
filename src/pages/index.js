@@ -9,13 +9,62 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Youssef Elkobi - Turning Vision into Digital Excellence</title>
+        <title>Youssef Elkobi: Creating Cutting-Edge Web Solutions</title>
         <meta
-          name='description'
-          content='Youssef Elkobi, a master in web development, specializes in transforming your ideas into engaging, high-performance digital experiences. Discover how I bring your digital aspirations to life.'
+  name='description'
+  content="Discover Youssef Elkobi's expertise in creating stunning, functional websites. Specializing in intuitive designs and robust development, I bring your digital vision to life with custom, user-friendly solutions."
+/>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='canonical' href='https://www.youssefelkobi.com' />
+        <meta property='og:type' content='website' />
+        <meta
+          property='og:title'
+          content='Youssef Elkobi | Expert Web Developer - Your Vision, Our Digital Craft'
         />
-        {/* Additional relevant meta tags */}
+        <meta
+          property='og:description'
+          content='Dedicated to turning concepts into reality, Youssef Elkobi provides comprehensive web development services that resonate with your audience. Discover how my expertise can elevate your online experience.'
+        />
+        <meta property='og:url' content='https://www.youssefelkobi.com' />
+        <meta
+          property='og:image'
+          content='https://www.youssefelkobi.com/og-image.jpg'
+        />
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta
+          name='twitter:title'
+          content='Youssef Elkobi | Expert Web Developer - Your Vision, Our Digital Craft'
+        />
+        <meta
+          name='twitter:description'
+          content='Partner with Youssef Elkobi for top-tier web development. From strategy to execution, experience seamless creation of your digital footprint.'
+        />
+        <meta
+          name='twitter:image'
+          content='https://www.youssefelkobi.com/twitter-image.jpg'
+        />
+        <meta name='twitter:site' content='@YoussefElkobi' />
+
+        {/* <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Youssef Elkobi",
+  "url": "https://www.youssefelkobi.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/youssefelkobi",
+    "https://twitter.com/YoussefElkobi",
+    "https://github.com/YoussefElkobi"
+  ],
+  "jobTitle": "Expert Web Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Independent Freelancer"
+  }
+}
+</script> */}
       </Head>
+
       <section className='bg-primary/60 h-full'>
         <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
           <header className='text-center flex flex-col py-32 xl:pb-0 xl:justify-center xl:text-left h-full container mx-auto'>
@@ -32,7 +81,7 @@ export default function Home() {
             </motion.h1>
 
             <motion.p
-              variants={fadeIn('down', 1)}
+              variants={fadeIn('down', 0.3)}
               initial='hidden'
               animate='show'
               exit='hidden'
