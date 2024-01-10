@@ -11,40 +11,11 @@ export default function Home() {
       <Head>
         <title>Youssef Elkobi: Creating Cutting-Edge Web Solutions</title>
         <meta
-  name='description'
-  content="Discover Youssef Elkobi's expertise in creating stunning, functional websites. Specializing in intuitive designs and robust development, I bring your digital vision to life with custom, user-friendly solutions."
-/>
+          name='description'
+          content="Discover Youssef Elkobi's expertise in creating stunning, functional websites. Specializing in intuitive designs and robust development, I bring your digital vision to life with custom, user-friendly solutions."
+        />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='canonical' href='https://www.youssefelkobi.com' />
-        <meta property='og:type' content='website' />
-        <meta
-          property='og:title'
-          content='Youssef Elkobi | Expert Web Developer - Your Vision, Our Digital Craft'
-        />
-        <meta
-          property='og:description'
-          content='Dedicated to turning concepts into reality, Youssef Elkobi provides comprehensive web development services that resonate with your audience. Discover how my expertise can elevate your online experience.'
-        />
-        <meta property='og:url' content='https://www.youssefelkobi.com' />
-        <meta
-          property='og:image'
-          content='https://www.youssefelkobi.com/og-image.jpg'
-        />
-        <meta name='twitter:card' content='summary_large_image' />
-        <meta
-          name='twitter:title'
-          content='Youssef Elkobi | Expert Web Developer - Your Vision, Our Digital Craft'
-        />
-        <meta
-          name='twitter:description'
-          content='Partner with Youssef Elkobi for top-tier web development. From strategy to execution, experience seamless creation of your digital footprint.'
-        />
-        <meta
-          name='twitter:image'
-          content='https://www.youssefelkobi.com/twitter-image.jpg'
-        />
-        <meta name='twitter:site' content='@YoussefElkobi' />
-
+        <link rel='canonical' href='https://portfolio-youssef-kobi.vercel.app/' />
         {/* <script type="application/ld+json">
 {
   "@context": "http://schema.org",
