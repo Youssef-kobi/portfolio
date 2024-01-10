@@ -14,8 +14,7 @@ export default function Home() {
           name='description'
           content="Discover Youssef Elkobi's expertise in creating stunning, functional websites. Specializing in intuitive designs and robust development, I bring your digital vision to life with custom, user-friendly solutions."
         />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='canonical' href='https://portfolio-youssef-kobi.vercel.app/' />
+
         {/* <script type="application/ld+json">
 {
   "@context": "http://schema.org",

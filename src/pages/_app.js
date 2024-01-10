@@ -12,6 +12,8 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta name="robots" content="all" />
+        <link rel='canonical' href='https://portfolio-youssef-kobi.vercel.app/' />
       </Head>
       <Layout>
         <AnimatePresence mode='wait'>
